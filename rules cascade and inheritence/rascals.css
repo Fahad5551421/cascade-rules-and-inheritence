@@ -1,0 +1,53 @@
+/* LAST RULE */
+/* p{
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+
+p{
+    color: red;
+} */
+
+/* SPECIFICITY */
+/* *{
+    color: red !important;
+}
+p{
+    color: green;
+}
+
+p#intro{
+    color: blueviolet;
+} */
+
+/* INHERITENCE */
+/* body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7d562f;
+    padding: 10px;
+} */
+/* .page{
+    color: inherit;
+} */
+/* div{
+    color: brown;
+}
+p{
+    font-family: cursive;
+    color: inherit;
+} */
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: #665544;
+padding: 10px;
+border: 1px solid red;
+}
+.page{
+    border: 1px solid #0de752;
+    background-color: #efefef;
+    padding:inherit;
+}
